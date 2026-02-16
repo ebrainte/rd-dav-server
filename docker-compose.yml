@@ -1,9 +1,6 @@
-version: "3.8"
-
 services:
   webdav-rd:
-    build: .
-    image: webdav-rd-client
+    image: ghcr.io/ebrainte/rd-dav-server:latest
     container_name: webdav-rd-client
     restart: unless-stopped
     ports:
