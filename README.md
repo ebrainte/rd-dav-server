@@ -127,3 +127,9 @@ docker buildx build \
 ```
 
 Then on your target machine, use `image: ghcr.io/YOUR_USERNAME/rd-dav-server:latest` in your docker-compose.yml instead of `build: .`.
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+
+Copyright (c) 2026 ebrainte
